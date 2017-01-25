@@ -1,4 +1,5 @@
 #!/bin/bash
+#Returns the laptop to 'normal' mode (screen oriented normally, standard coordinate matrix and enabled keyboard and touchpad)
 #Rotate Screen
 xrandr --output eDP-1 --rotate normal
 #Rotate TouchScreen input matrix

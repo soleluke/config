@@ -1,4 +1,5 @@
 #!/bin/bash
+#Puts the laptop into 'notes' mode (rotates screen 90 degrees, rotates the touchscreen coordinate matrix and disables the keyboard and touchpad)
 #Rotate Screen
 xrandr --output eDP-1 --rotate left
 #Rotate TouchScreen input matrix
